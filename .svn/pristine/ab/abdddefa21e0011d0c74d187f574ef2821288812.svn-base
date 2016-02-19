@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Harvester
+{
+    /// <summary>
+    /// Represents the player's Harvester claw used to steal energy from enemies
+    /// </summary>
+    public class Harvester
+    {
+        //empty for now
+        public Harvester()
+        {
+        }
+    }
+}

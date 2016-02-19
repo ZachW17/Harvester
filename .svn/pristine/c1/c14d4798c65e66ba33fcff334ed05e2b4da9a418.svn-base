@@ -1,0 +1,99 @@
+﻿/*
+ * public abstract class Enemy : Ship
+ * @author Freddy Garcia
+ * 
+ * Version:
+ *      $1.1.1$
+ * 
+ * Revisions:
+ *      1.1.0: (Derrick Hunt)
+ *          - Added a TakeHit method for the ship to be able to take damage
+ *      1.1.1: (Freddy Garcia)
+ *          - Removed the bool isActive parameter from the constructor
+ *      1.1.2: (Peter O'Neal)
+ *          - Added properties and attributes for when enemies hit screen edges
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Harvester
+{
+    /// <summary>
+    /// Enemies that will spawn on the ship which can shoot down the ship
+    /// </summary>
+    public abstract class Enemy : Ship
+    {
+        // the state of whether the enemy is alive or not
+        protected bool isActive;
+        protected bool hitRight;
+        protected string type;
+
+        /// <summary>
+        /// If the enemy is alive
+        /// </summary>
+        public bool IsActive
+        {
+            get { return isActive; }
+            set { isActive = value; }
+        }
+
+        //sses if enemy has hit right edge of screen
+        public bool HitRight
+        {
+            get { return hitRight; }
+            set { hitRight = value; }
+        }
+
+        public string Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
+
+        /// <summary>
+        /// Creates a new enemy which will have position/size,
+        /// texture, speed, health, and armor determined by parameters.
+        /// </summary>
+        /// <param name="objPos">The position/size of the enemy</param>
+        /// <param name="objTexture">The texture of the enemy</param>
+        /// <param name="objSpeed">The speed of the enemy</param>
+        /// <param name="objHealth">The health of the enemy</param>
+        /// <param name="objArmor">The armor of the enemy</param>
+        public Enemy(Rectangle objPos, Texture2D objTexture, double objSpeed, double objHealth, double objArmor, Texture2D bulletTexture, String t)
+            : base(objPos, objTexture, objSpeed, objHealth, objArmor,bulletTexture)
+        {
+            isActive = true;
+            hitRight = false;
+            type = t;
+        }
+
+        
+        /// <summary>
+        /// The ship takes damage equal to the damage in the parameter
+        /// </summary>
+        /// <param name="damage"></param>
+        public void TakeHit(double damage)
+        {
+            CurrentHealth -= damage;
+
+            // The ship dies when health is less than or equal to 0
+            if (CurrentHealth <= 0)
+            {
+                isActive = false;
+            }
+        }
+
+        /// <summary>
+        /// Fires the main weapon of the enemy
+        /// </summary>
+        public override void Fire()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

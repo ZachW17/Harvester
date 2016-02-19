@@ -1,0 +1,105 @@
+﻿/*
+ * public class GamePause
+ * @author Zach Whitman
+ * 
+ * Version:
+ *      $1.0.0$
+ * 
+ * Revisions:
+ * 
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+namespace Harvester
+{
+    /// <summary>
+    /// Menu that will be displayed when the player has lost the game
+    /// (I just lost the game >.>)
+    /// </summary>
+    class GameOver : Menu 
+    {
+        // Main text and img that will be displayed during the game over screen
+        private Texture2D mainText;
+        private Texture2D backgroundIMG;
+        private Vector2 maintTextPosistion;
+        private Vector2 backgroundIMGPoistion;
+        Player currentPlayer;
+
+        // Properties of the attributes
+        #region Properties
+        /// <summary>
+        /// Main text that will be displayed on the screen
+        /// </summary>
+        public Vector2 MainTextPosistion
+        {
+            get { return MainTextPosistion; }
+            set { MainTextPosistion = value; }
+        }
+        public Vector2 BackgroundIMGPoisistion
+        {
+            get { return BackgroundIMGPoisistion; }
+            set { BackgroundIMGPoisistion = value; }
+        }
+        public Texture2D MainText
+        {
+            get { return mainText; }
+            set { mainText = value; }
+        }
+        /// <summary>
+        /// Background image that will be displayed during this screen
+        /// </summary>
+        private Texture2D BackgroundIMG
+        {
+            get { return backgroundIMG; }
+            set { backgroundIMG = value; }
+        }
+        #endregion
+
+
+        /// <summary>
+        /// The game over menu is created and the screen is displayed.
+        /// </summary>
+        /// <param name="currentPlayer"></param>
+        public GameOver(Engine theGame, Player currentPlayer)
+            : base (theGame)
+        {
+            this.currentPlayer = currentPlayer;
+            Game.IsMouseVisible = true;
+
+        }
+
+
+
+        public override void Initialize()
+        {
+            base.Initialize();
+        }
+
+        protected override void LoadContent()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            throw new NotImplementedException();
+        }
+
+    }
+}

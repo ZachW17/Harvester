@@ -1,0 +1,148 @@
+﻿/*
+ * Public static class ShipManager
+ * @author Freddy Garcia, Theodore Greene
+ * 
+ * Version: $1.0.0$
+ *           
+ * 
+ * Revisions: 1.0.1 - (Theodore Greene)
+ *                  -Created Method Stubs
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Harvester
+{
+
+
+    public class ShipManager : Game
+    {
+
+        public ShipManager()
+        {
+
+        }
+        /// <summary>
+        /// Creates a ship based of parameters
+        /// </summary>
+        /// <param name="objPos">Object Position</param>
+        /// <param name="objTexture">Object Texture</param>
+        /// <param name="objSpeed">Speed</param>
+        /// <param name="objHealth">Health</param>
+        /// <param name="objArmour">Armour</param>
+        /// <param name="bulletTexture">Bullet Texture</param>
+        /// <param name="shipType">Ship Type</param>
+        /// <returns>Returns a ship</returns>
+        public static Ship CreateShip(Rectangle objPos, Texture2D objTexture, double objSpeed, double objHealth, double objArmour, Texture2D bulletTexture, ShipType shipType)
+        {
+            switch (shipType)
+            {
+                // case ShipType.Player:
+                //   Player player
+                case ShipType.EnemyFighter:
+                    EnemyFighter enemyFighter = new EnemyFighter(objPos, objTexture, objSpeed, objHealth, objArmour, bulletTexture, shipType,10);
+                    return enemyFighter;
+
+                case ShipType.Kamikaze:
+                    EnemyFighter kamikazeFighter = new EnemyFighter(objPos, objTexture, objSpeed, objHealth, objArmour, bulletTexture, shipType,0);
+                    return kamikazeFighter;
+                default:
+                    return null;
+            }
+        }
+
+        ///// <summary>
+        ///// Checks for collisions between player and enemy, player's bullets and the enemy
+        ///// </summary>
+        //public void CheckCollisions(Player player, Enemy enemy)
+        //{
+        //    //checks bullets against an enemy
+        //    for (int i = 0; i < player.Bullets.Count; i++)
+        //    {
+        //        // If the bullets of the player intersect with any enemies
+        //        // The enemies take a hit
+        //        if (player.Bullets[i].ObjectPosition.Intersects(enemy.ObjectPosition))
+        //        {
+        //            enemy.TakeHit(25);
+        //            Console.WriteLine("hit an enemy");
+        //            player.Bullets.Remove(player.Bullets[i]);
+        //            //Adds score when enemies die
+        //            if (enemy.ShipIsActive == false)
+        //            {
+        //                player.Score += 100;
+        //            }
+        //        }
+        //    }
+
+        //    //checks collisions betwen enemy ships and player ships
+        //    if (enemy.ObjectPosition.Intersects(player.ObjectPosition))
+        //    {
+        //        enemy.ShipIsActive = false;
+        //        player.CurrentHealth = 0;
+        //    }
+        //}
+
+        ////Moves enemies to the right and left until they hit the screen edge
+        //public void MoveEnemies(List<Enemy> enemies, Player player)
+        //{
+        //    for (int i = 0; i < enemies.Count; i++)
+        //    {
+        //        if (enemies[i].ShipIsActive)
+        //        {
+        //            //enemy fighter ships move left to right
+        //            if (enemies[i].TheShipType == ShipType.EnemyFighter)
+        //            {
+        //                if (enemies[i].HitRight == false)
+        //                {
+        //                    if (enemies[i].ObjectXPos < GraphicsDevice.Viewport.Width - 50)
+        //                    {
+        //                        enemies[i].ObjectXPos += 1;
+        //                    }
+        //                    if (enemies[i].ObjectXPos == GraphicsDevice.Viewport.Width - 50)
+        //                    {
+        //                        enemies[i].HitRight = true;
+        //                    }
+        //                }
+        //                if (enemies[i].HitRight == true)
+        //                {
+        //                    if (enemies[i].ObjectXPos > 0)
+        //                    {
+        //                        enemies[i].ObjectXPos -= 1;
+        //                    }
+        //                    if (enemies[i].ObjectXPos == 0)
+        //                    {
+        //                        enemies[i].HitRight = false;
+        //                    }
+        //                }
+        //            }
+        //            //kamikaze ships fly at you
+        //            else if (enemies[i].TheShipType == ShipType.Kamikaze)
+        //            {
+
+        //                if (enemies[i].ObjectYPos < player.ObjectYPos)
+        //                {
+        //                    enemies[i].ObjectYPos += 2;
+        //                }
+        //                if (enemies[i].ObjectXPos < player.ObjectXPos)
+        //                {
+        //                    enemies[i].ObjectXPos += 2;
+        //                }
+        //                if (enemies[i].ObjectYPos > player.ObjectYPos)
+        //                {
+        //                    enemies[i].ObjectYPos -= 2;
+        //                }
+        //                if (enemies[i].ObjectXPos > player.ObjectXPos)
+        //                {
+        //                    enemies[i].ObjectXPos -= 2;
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
+    }
+}

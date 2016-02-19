@@ -1,0 +1,151 @@
+﻿/*
+ * Public Class ModLoader
+ * @author: Theodore Greene
+ * 
+ * Version $1.0.0$
+ * 
+ * Revisions:
+ *  1.0.1:(Theodore Greene)
+ *      -Created and made
+ *  1.1.0:(Theodore Greene)
+ *      -Created what this class was supposed to do, Load content based off parameters
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Collections;
+
+namespace Harvester
+{
+    public static class ModLoader
+    {
+        //Attributes
+        public enum LoadType
+        {
+            EnemySetting,
+            Formation,
+            GameSettings,
+            PlayerSetting
+        }
+
+        //Variable for the enum
+        private static LoadType _theLoadType;
+
+        /// <summary>
+        /// Property for the load type
+        /// </summary>
+        public static LoadType TheLoadType { get { return _theLoadType; } set { _theLoadType = value; } }
+        
+
+
+        /// <summary>
+        /// Return the current directory 
+        /// </summary>
+        /// <returns>arrayList of items to be used</returns>
+        /// <param name="fileName">fileName to read</param>
+        /// <param name="loadType">a load type to switch around</param>
+        public static ArrayList LoadFromSource(string fileName, LoadType loadType)
+        {
+            ArrayList arrayList = new ArrayList();
+
+            //Move through the directories
+            #region
+            //Get where you currently are, the bottem
+            string currentDirectory = Directory.GetCurrentDirectory();
+
+            //Create directory info for use
+            DirectoryInfo directoryInfo = new DirectoryInfo(currentDirectory);
+
+            //Move up three directories
+            for (int i = 0; i < 3; i++)
+            {
+                //get the parent of the current directory
+                directoryInfo = Directory.GetParent(currentDirectory);
+
+                //set the current directory to the parent (inside of the full path so you can keep moving up
+                currentDirectory = directoryInfo.FullName;
+            }
+
+            //Go down one level into Mods
+            currentDirectory = currentDirectory + "\\Mods";
+            #endregion
+           
+            #region
+            //Load it 
+
+            //Create a general stream
+            Stream inStream = null;
+            BinaryReader input = null;
+
+            //Extension to be added in
+            string fileExtension = " ";
+
+            //Switch on the directories name
+            switch (loadType)
+            {    
+                case LoadType.EnemySetting:
+                    currentDirectory = currentDirectory + "\\EnemySettings";
+                    fileExtension = ".est";
+                    break;
+
+                case LoadType.Formation:
+                    currentDirectory = currentDirectory + "\\Formations";
+                    fileExtension = ".frm";
+                    break;
+                   
+                case LoadType.GameSettings:
+                    currentDirectory = currentDirectory + "\\Game Settings";
+                    fileExtension = ".gst";
+                    break;
+
+                case LoadType.PlayerSetting:
+                    currentDirectory = currentDirectory + "\\Player Settings";
+                    fileExtension = ".pst";
+                    break;
+            }
+
+            // Try to make and read data
+            try
+            {
+                inStream = File.OpenRead(currentDirectory + "\\" + fileName + fileExtension);
+                input = new BinaryReader(inStream);
+
+                while (input != null)
+                {
+                    // Read some data
+                    int x = input.ReadInt32();
+                    int y = input.ReadInt32();
+                    String name = input.ReadString();
+
+                    //Add the items to the arrayList
+                    arrayList.Add(x);
+                    arrayList.Add(y);
+                    arrayList.Add(name);
+
+                    // Print the data for testing, writes to output
+                    Console.WriteLine();
+                    Console.WriteLine("X: " + x);
+                    Console.WriteLine("Y: " + y);
+                    Console.WriteLine("Name: " + name);
+
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error reading" + fileName + ": " + e.Message);
+            }
+            finally
+            {
+                if (input != null)
+                    input.Close();
+                else if (inStream != null)
+                    inStream.Close();
+            }
+
+            return arrayList;
+            #endregion
+        }
+    }
+}

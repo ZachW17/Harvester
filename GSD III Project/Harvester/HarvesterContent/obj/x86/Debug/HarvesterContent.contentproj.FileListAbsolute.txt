@@ -1,0 +1,4 @@
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\HarvesterContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\HarvesterContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\HarvesterContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\HarvesterContent\obj\x86\Debug\HarvesterContent.contentprojResolveAssemblyReference.cache

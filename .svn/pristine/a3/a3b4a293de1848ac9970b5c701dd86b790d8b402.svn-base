@@ -1,0 +1,51 @@
+﻿/*
+ * public abstract class Harvester
+ * @author Derrick Huntah!
+ * 
+ * Version:
+ *      $1.0.0$
+ * 
+ * Revisions:
+ * 
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Harvester
+{
+    /// <summary>
+    /// Represents the player's Harvester claw used to steal energy from enemies
+    /// </summary>
+    public class Harvester
+    {
+        #region Attributes
+        private Color color; //the current color of the harvester
+        private int length; //the length of the harvester (in chain links)
+        private int damage; //the damage of the harvester
+        private int cooldownTime; //time between each usage
+        private Texture2D chain; //the chain texture
+        private Texture2D claw; //the claw texture
+        private Random gen; //used to change the harvester color
+        #endregion
+
+        #region Constructor
+        public Harvester(Texture2D chain, Texture2D claw, int length, int damage)
+        {
+            this.color = Color.White;
+            this.length = length;
+            this.damage = damage;
+            this.cooldownTime = 0;
+            this.chain = chain;
+            this.claw = claw;
+            gen = new Random();
+        }
+        #endregion
+
+
+    }
+}

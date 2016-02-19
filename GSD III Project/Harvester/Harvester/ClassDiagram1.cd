@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Harvester.Background" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.BackgroundBox" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\BackgroundBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.BlackholePowerUp" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAgAAAAAAAAAAAAQEAAEAAAAAAQAIAAA=</HashCode>
+      <FileName>Game Pieces\BlackholePowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Bomb" Collapsed="true">
+    <Position X="31.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAQAAAAE=</HashCode>
+      <FileName>Game Pieces\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Bomber" Collapsed="true">
+    <Position X="38.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAwIAAAAAIoAAAACAAAAAAAAFAAEiEgAAAAAEAAE=</HashCode>
+      <FileName>Game Pieces\Bomber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Bullet" Collapsed="true">
+    <Position X="28.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Button" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.CooldownBar" Collapsed="true">
+    <Position X="45.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAABAAAAAAACgAAAAAAAgAAA=</HashCode>
+      <FileName>Game Pieces\CooldownBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.DamagePowerUp" Collapsed="true">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAEAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\DamagePowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Enemy" Collapsed="true">
+    <Position X="37.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Game Pieces\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.EnemyBullet" Collapsed="true">
+    <Position X="27.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\EnemyBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.EnemyFighter" Collapsed="true">
+    <Position X="36.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAIgAAAAAAAAAAAAAEAAAEEAAAACAIAAA=</HashCode>
+      <FileName>Game Pieces\EnemyFighter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Explosion" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAE=</HashCode>
+      <FileName>Game Pieces\Explosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.GameObject" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAAAIgAAAAAAAAAABAAAAAAAAAIACAACBAA=</HashCode>
+      <FileName>Game Pieces\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.GenericPowerUp" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\GenericPowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Harvester" Collapsed="true">
+    <Position X="47.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQAAQAAAAIgAAAEAAAQFAIAAAAAACAAAAAgUAAAAE=</HashCode>
+      <FileName>Game Pieces\Harvester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.HealthBar" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAABAAAAAAACgAAAAAAAgAAA=</HashCode>
+      <FileName>Game Pieces\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.ImperialBoss" Collapsed="true">
+    <Position X="34" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgIAAAAAAgAABAAAAAAAAAAEAQACAAEAAAAAgEA=</HashCode>
+      <FileName>Game Pieces\ImperialBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.ImperialBullet" Collapsed="true">
+    <Position X="29.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\ImperialBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.InvincibilityPowerUp" Collapsed="true">
+    <Position X="20.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAACAAAAAAQAAAAAAEAAEAAEAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\InvincibilityPowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Kamikaze" Collapsed="true">
+    <Position X="40.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIgAAAAAAAAAAQAgEAAAoEAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\Kamikaze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.LevelHUD" Collapsed="true">
+    <Position X="51.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQABAAAAAAAAgAAAAAAAAAAAAEABAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Game Pieces\LevelHUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.MovableGameObject" Collapsed="true">
+    <Position X="28.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\MovableGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Player" Collapsed="true">
+    <Position X="51.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAgAAAAIEAQAAAAEIAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.PlayerBullet" Collapsed="true">
+    <Position X="25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\PlayerBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.PlayerShip" Collapsed="true">
+    <Position X="43" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIABAAIIJwACCAAAAAAAAAAEoIAAUBEAAAAAIAA=</HashCode>
+      <FileName>Game Pieces\PlayerShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.PowerUp" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAEAAAABAAAAgEAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Game Pieces\PowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.PowerUpBar" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAhAAIAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\PowerUpBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Ship" Collapsed="true">
+    <Position X="38.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgACIAIAAiABIEAAAQBQAEAAEAAAAUAAAAgAAEAo=</HashCode>
+      <FileName>Game Pieces\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Level" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQB1IARAARAJwgAhQCqBIQAAeGAJIGBUAAFAQAEAAQ=</HashCode>
+      <FileName>Levels\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.LevelOne" Collapsed="true">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Levels\LevelOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.LevelThree" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAEACAAAEAAAABAAAAAAAAAQ=</HashCode>
+      <FileName>Levels\LevelThree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.LevelTwo" Collapsed="true">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Levels\LevelTwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Engine" Collapsed="true">
+    <Position X="55.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEQEUERgAQAABwQAKaAsASggQQFUERgBRAAICwAxgAc=</HashCode>
+      <FileName>Main Engine\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Program" Collapsed="true">
+    <Position X="53.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Main Engine\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.AbilityManager" Collapsed="true">
+    <Position X="50" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\AbilityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.AssetManager" Collapsed="true">
+    <Position X="51.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwEAAAAAAAAAAAAAAEAAAAIFACAAAAASAAAABAAAAA=</HashCode>
+      <FileName>Managers\AssetManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.BulletManager" Collapsed="true">
+    <Position X="53.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\BulletManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.HighscoreManager" Collapsed="true">
+    <Position X="50" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAEABAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAA=</HashCode>
+      <FileName>Managers\HighscoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Node" Collapsed="true">
+    <Position X="50" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAJAAAACQAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Managers\HighscoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.LevelManager" Collapsed="true">
+    <Position X="53.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.MediaManager" Collapsed="true">
+    <Position X="55.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\MediaManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.ShipManager" Collapsed="true">
+    <Position X="55.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ShipManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.SpawnManager" Collapsed="true">
+    <Position X="50" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAGAIAAAgBAAACAAAAACAEAwAEAAIAgQAAAAAAAAAo=</HashCode>
+      <FileName>Managers\SpawnManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.GameOver" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAQIAQAEAA0gAAQAIAAEAAAAAAAAAABAggAAAMAQ=</HashCode>
+      <FileName>Menus\GameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.GamePause" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAYAAQAEAA0AAAAAAAIIAAAACAAAAAAAggAAAIAQ=</HashCode>
+      <FileName>Menus\GamePause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.LevelCompleteMenu" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgQAIQAAwAEAA4gAAAAIAAAAAAAAAAAABFAACAAAMCQ=</HashCode>
+      <FileName>Menus\LevelCompleteMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.MainMenu" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCaAAFAAkMAgE7SAIBS0AGAEGlEEBxpQAAEYAIAQCAU=</HashCode>
+      <FileName>Menus\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Harvester.Menu" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAAAAAAAAAgAAAAIAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Menus\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Harvester.ShipType" Collapsed="true">
+    <Position X="50" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAEAQAAAAARAAAAAAAAAAA=</HashCode>
+      <FileName>Game Pieces\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Harvester.Gamestate" Collapsed="true">
+    <Position X="51.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAABAAAAAAYAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Main Engine\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Harvester.GameplayState" Collapsed="true">
+    <Position X="50" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Main Engine\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Harvester.LoadType" Collapsed="true">
+    <Position X="53.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEgA=</HashCode>
+      <FileName>Managers\AssetManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Harvester.SpawnType" Collapsed="true">
+    <Position X="51.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAEAAAAAACAgAAAAAEAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Managers\SpawnManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Harvester.MainMenuState" Collapsed="true">
+    <Position X="55.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Menus\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

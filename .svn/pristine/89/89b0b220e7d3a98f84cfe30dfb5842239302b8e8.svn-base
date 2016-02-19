@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+//Contains methods necessary for manipulating the player's health bar in the HUD
+//@author Derrick Hunt
+//@version 1.0.0
+//
+//REVISIONS
+//
+
+namespace Harvester
+{
+    public class HealthBar : GameObject
+    {
+        private int health; //the current health
+
+        //props
+        public int Health
+        {
+            get { return health; }
+            set { health = value; }
+        }
+
+        //constructor
+        public HealthBar(Rectangle rect, Texture2D texture, int health) : base(rect, texture)
+        {
+            this.health = health;
+        }
+
+        /// <summary>
+        /// Change colors based on health
+        /// </summary>
+        /// <param name="texture"></param>
+        public override void Draw(SpriteBatch texture)
+        {
+            if (this.health >= 75)
+            {
+                texture.Draw(this.ObjectTexture, this.ObjectPosition, Color.Green);
+            }
+            else if (this.health >= 50)
+            {
+                texture.Draw(this.ObjectTexture, this.ObjectPosition, Color.Yellow);
+            }
+            else if (this.health >= 25)
+            {
+                texture.Draw(this.ObjectTexture, this.ObjectPosition, Color.Orange);
+            }
+            else
+            {
+                texture.Draw(this.ObjectTexture, this.ObjectPosition, Color.Red);
+            }
+        }
+    }
+}

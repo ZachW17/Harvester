@@ -1,0 +1,119 @@
+﻿/*
+ * public class GamePause
+ * @author Zach Whitman
+ * 
+ * Version:
+ *      $1.0.0$
+ * 
+ * Revisions:
+ * 
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+
+namespace Harvester
+{
+    /// <summary>
+    /// Menu that will be displayed when the player has paused the game
+    /// </summary>
+    class GamePause : Menu
+    {
+
+        // Main text and img that will be displayed during the pause screen
+        private Texture2D mainText;
+        private Texture2D backgroundIMG;
+        private Texture2D quitText;
+        private Vector2 quitTextPosistion;
+        private Vector2 maintTextPosistion;
+        private Vector2 backgroundIMGPoistion;
+        Player currentPlayer;
+
+        // Properties of the attributes
+        #region properties
+        public Texture2D MainText
+        {
+            get { return mainText; }
+            set { mainText = value; }
+        }
+
+        public Vector2 MainTextPosistion
+        {
+            get { return MainTextPosistion; }
+            set { MainTextPosistion = value; }
+        }
+        public Vector2 BackgroundIMGPoisistion
+        {
+            get { return BackgroundIMGPoisistion; }
+            set { BackgroundIMGPoisistion = value; }
+        }
+        private Texture2D BackgroundIMG
+        {
+            get { return backgroundIMG; }
+            set { backgroundIMG = value; }
+        }
+        #endregion
+
+
+        /// <summary>
+        /// The pause menu is created and the screen is displayed.
+        /// </summary>
+        /// <param name="currentPlayer"></param>
+        public GamePause(Engine theGame, Player currentPlayer)
+            : base (theGame)
+        {
+            this.currentPlayer = currentPlayer;
+            Game.IsMouseVisible = true;
+
+        }
+
+        /// <summary>
+        /// Allows the game to perform any initialization it needs to before starting to run.
+        /// This is where it can query for any required services and load any non-graphic
+        /// related content.  Calling base.Initialize will enumerate through any components
+        /// and initialize them as well.
+        /// </summary>
+        public override void Initialize()
+        {
+            base.Initialize();
+        }
+
+        /// <summary>
+        /// LoadContent will be called once per game and is the place to load
+        /// all of your content.
+        /// </summary>
+        protected override void LoadContent()
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Allows the game to run logic such as updating the world,
+        /// checking for collisions, gathering input, and playing audio.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        public override void Update(GameTime gameTime)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// This is called when the game should draw itself.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

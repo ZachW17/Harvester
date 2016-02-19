@@ -1,0 +1,311 @@
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\MainMenuFont.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverFont.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\InGameFont.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Harvester.exe
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Harvester.pdb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.exe
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.pdb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverScore.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\Phoenix.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\Kamikaze.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\Bomber.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_icon.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_background.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_left.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_right.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_box.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_logo.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_manual.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_options.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_play.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_menu_background.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\options_menu_background.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_icon.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\play_again_icon.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\play_icon.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\quit_icon.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_fighter.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix_bullet.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phx_mk.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\player_bullet.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world1.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world2.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world3.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world4.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Effects\explosion_1.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\health_bar.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\health_bar_border.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\power_up_border.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\cross_hair.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_bullet.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomb.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world1.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world2.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world3.xnb
+C:\Users\Zachary\Desktop\GSD3\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world4.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.exe
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.pdb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverFont.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverScore.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\InGameFont.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\MainMenuFont.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_background.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_left.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_right.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_box.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_logo.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_manual.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_play.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_menu_background.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomber.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_fighter.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\kamikaze.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix_bullet.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phx_mk.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\player_bullet.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world1.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world2.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world3.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world4.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\power_up_border.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\cross_hair.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_bullet.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomb.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world1.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world2.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world3.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world4.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\harvester_spritesheet.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\explosion_1.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\bar.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\bar_border.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_background.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_quit_button_texture.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_resume_button_texture.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_title_texture.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_quit_button_texture.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_restart_button_texture.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_title.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_background.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bombline.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_down_button_temp.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_up_button_temp.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\powerup_icon.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_credits.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\credits_menu_background.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\blackhole_icon.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\double_damage_icon.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\invincibility_icon.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\invincibility_shield.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space1.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space2.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space3.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space4.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\continue_button_texture.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_complete_title.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\level_complete_title.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\imperial_boss.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\imperial_laser.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\blackhole_spritesheet.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\no_more_lies.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\large_explosion_with_trail_off.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\science_fiction_phaser_gun.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\ship_explosion.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\bomb_explosion.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_normal.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\blackhole_fire.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_enemy.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_double_damage.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_two_music.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\invincibility_shield.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_one_music.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_three_music.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\kamikaze_lock.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\imperial_laser_fire.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\AccuracyFont.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\ScoreFont.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Movies\start_up_movie.xnb
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Movies\start_up_movie.wmv
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Harvester.exe
+C:\Users\Zachary\Documents\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Harvester.pdb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_background.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_left.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_right.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_box.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_logo.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_manual.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_play.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_menu_background.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomber.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_fighter.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\kamikaze.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix_bullet.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phx_mk.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\player_bullet.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\explosion_1.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\bar.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\bar_border.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\power_up_border.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\cross_hair.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_bullet.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomb.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world1.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world2.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world3.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world4.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\harvester_spritesheet.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_background.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_quit_button_texture.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_resume_button_texture.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_title_texture.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_quit_button_texture.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_restart_button_texture.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_title.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_background.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bombline.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_down_button_temp.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_up_button_temp.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\powerup_icon.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_credits.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\credits_menu_background.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\blackhole_icon.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\double_damage_icon.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\invincibility_icon.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\invincibility_shield.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space1.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space2.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space3.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space4.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\continue_button_texture.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_complete_title.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\level_complete_title.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\imperial_boss.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\imperial_laser.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\blackhole_spritesheet.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world1.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world2.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world3.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world4.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\no_more_lies.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\large_explosion_with_trail_off.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\science_fiction_phaser_gun.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\ship_explosion.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\bomb_explosion.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_normal.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\blackhole_fire.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_enemy.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_double_damage.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_two_music.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\invincibility_shield.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_one_music.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_three_music.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\kamikaze_lock.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\imperial_laser_fire.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverFont.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverScore.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\InGameFont.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\MainMenuFont.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\AccuracyFont.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\ScoreFont.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Movies\start_up_movie.xnb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Movies\start_up_movie.wmv
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Harvester.exe
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Harvester.pdb
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.exe
+F:\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.pdb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_background.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_left.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_right.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_box.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_logo.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_manual.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_play.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_menu_background.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomber.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_fighter.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\kamikaze.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix_bullet.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phx_mk.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\player_bullet.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\explosion_1.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\bar.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\bar_border.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\power_up_border.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\cross_hair.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_bullet.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomb.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world1.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world2.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world3.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world4.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\harvester_spritesheet.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_background.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_quit_button_texture.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_resume_button_texture.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_title_texture.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_quit_button_texture.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_restart_button_texture.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_title.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_background.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bombline.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_down_button_temp.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_up_button_temp.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\powerup_icon.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_credits.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\credits_menu_background.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\blackhole_icon.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\double_damage_icon.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\invincibility_icon.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\invincibility_shield.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space1.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space2.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space3.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space4.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\continue_button_texture.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_complete_title.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\level_complete_title.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\imperial_boss.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\imperial_laser.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\blackhole_spritesheet.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world1.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world2.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world3.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world4.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\no_more_lies.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\large_explosion_with_trail_off.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\science_fiction_phaser_gun.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\ship_explosion.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\bomb_explosion.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_normal.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\blackhole_fire.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_enemy.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_double_damage.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_two_music.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\invincibility_shield.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_one_music.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_three_music.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\kamikaze_lock.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\imperial_laser_fire.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverFont.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverScore.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\InGameFont.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\MainMenuFont.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\AccuracyFont.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\ScoreFont.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Movies\start_up_movie.xnb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Movies\start_up_movie.wmv
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Harvester.exe
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Harvester.pdb
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.csprojResolveAssemblyReference.cache
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.exe
+C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\obj\x86\Debug\Harvester.pdb

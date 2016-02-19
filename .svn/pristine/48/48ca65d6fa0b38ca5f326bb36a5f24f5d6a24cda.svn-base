@@ -1,0 +1,29 @@
+﻿/*
+ * public class EnemyFighter
+ * @author Peter O'Neal
+ * 
+ * Version:
+ *        1.0.2
+ * 
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+namespace Harvester
+{
+    public class EnemyFighter : Enemy
+    {
+        protected bool isActive;
+        //Constructor that takes same arguments as ship
+        public EnemyFighter(Rectangle objPos, Texture2D objTexture, double objSpeed, double objHealth, double objArmor,Texture2D bulletTexture, bool active)
+
+            : base(objPos, objTexture, objSpeed, objHealth, objArmor,bulletTexture, active)
+        {
+
+        }
+    }
+}

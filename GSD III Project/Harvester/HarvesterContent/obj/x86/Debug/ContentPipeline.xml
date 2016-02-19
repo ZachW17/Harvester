@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Menu_Assets\main_menu_background.png</Source>
+      <Name>Menu_Assets\main_menu_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_background.xnb</Output>
+      <Time>2012-04-30T11:59:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\main_menu_back_left.png</Source>
+      <Name>Menu_Assets\main_menu_back_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_left.xnb</Output>
+      <Time>2012-04-30T11:59:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\main_menu_back_right.png</Source>
+      <Name>Menu_Assets\main_menu_back_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_back_right.xnb</Output>
+      <Time>2012-04-30T11:59:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\main_menu_box.png</Source>
+      <Name>Menu_Assets\main_menu_box</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_box.xnb</Output>
+      <Time>2012-04-30T11:59:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\main_menu_logo.png</Source>
+      <Name>Menu_Assets\main_menu_logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_logo.xnb</Output>
+      <Time>2012-04-30T11:59:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\main_menu_manual.png</Source>
+      <Name>Menu_Assets\main_menu_manual</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_manual.xnb</Output>
+      <Time>2012-04-30T11:59:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\main_menu_play.png</Source>
+      <Name>Menu_Assets\main_menu_play</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_play.xnb</Output>
+      <Time>2012-04-30T11:59:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\manual_menu_background.png</Source>
+      <Name>Menu_Assets\manual_menu_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_menu_background.xnb</Output>
+      <Time>2012-04-30T11:59:56-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\bomber.png</Source>
+      <Name>Enemies\bomber</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomber.xnb</Output>
+      <Time>2012-04-30T11:59:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\enemy_fighter.png</Source>
+      <Name>Enemies\enemy_fighter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_fighter.xnb</Output>
+      <Time>2012-04-30T11:59:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\kamikaze.png</Source>
+      <Name>Enemies\kamikaze</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\kamikaze.xnb</Output>
+      <Time>2012-04-30T11:59:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\phoenix.png</Source>
+      <Name>Player\phoenix</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix.xnb</Output>
+      <Time>2012-04-30T12:00:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\phoenix_bullet.png</Source>
+      <Name>Player\phoenix_bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phoenix_bullet.xnb</Output>
+      <Time>2012-04-30T12:00:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\phx_mk.png</Source>
+      <Name>Player\phx_mk</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\phx_mk.xnb</Output>
+      <Time>2012-04-30T12:00:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\player_bullet.png</Source>
+      <Name>Player\player_bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\player_bullet.xnb</Output>
+      <Time>2012-04-30T12:00:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\explosion_1.png</Source>
+      <Name>Enemies\explosion_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\explosion_1.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD_Items\bar.png</Source>
+      <Name>HUD_Items\bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\bar.xnb</Output>
+      <Time>2012-11-29T17:43:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD_Items\bar_border.png</Source>
+      <Name>HUD_Items\bar_border</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\bar_border.xnb</Output>
+      <Time>2012-11-29T17:43:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD_Items\power_up_border.png</Source>
+      <Name>HUD_Items\power_up_border</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\power_up_border.xnb</Output>
+      <Time>2012-04-30T11:59:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>HUD_Items\cross_hair.png</Source>
+      <Name>HUD_Items\cross_hair</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\HUD_Items\cross_hair.xnb</Output>
+      <Time>2012-04-30T11:59:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\enemy_bullet.png</Source>
+      <Name>Enemies\enemy_bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\enemy_bullet.xnb</Output>
+      <Time>2012-05-03T20:48:28-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\bomb.png</Source>
+      <Name>Enemies\bomb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bomb.xnb</Output>
+      <Time>2012-04-30T11:59:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\water_world1.png</Source>
+      <Name>Level_Backgrounds\water_world1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world1.xnb</Output>
+      <Time>2012-04-30T19:43:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\water_world2.png</Source>
+      <Name>Level_Backgrounds\water_world2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world2.xnb</Output>
+      <Time>2012-04-30T19:43:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\water_world3.png</Source>
+      <Name>Level_Backgrounds\water_world3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world3.xnb</Output>
+      <Time>2012-04-30T19:43:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\water_world4.png</Source>
+      <Name>Level_Backgrounds\water_world4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\water_world4.xnb</Output>
+      <Time>2012-04-30T19:43:14-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Player\harvester_spritesheet.png</Source>
+      <Name>Player\harvester_spritesheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Player\harvester_spritesheet.xnb</Output>
+      <Time>2012-05-02T23:03:04-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\pause_menu_background.png</Source>
+      <Name>Menu_Assets\pause_menu_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_background.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\pause_menu_quit_button_texture.png</Source>
+      <Name>Menu_Assets\pause_menu_quit_button_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_quit_button_texture.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\pause_menu_resume_button_texture.png</Source>
+      <Name>Menu_Assets\pause_menu_resume_button_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_resume_button_texture.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\pause_menu_title_texture.png</Source>
+      <Name>Menu_Assets\pause_menu_title_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\pause_menu_title_texture.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\game_over_menu_quit_button_texture.png</Source>
+      <Name>Menu_Assets\game_over_menu_quit_button_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_quit_button_texture.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\game_over_menu_restart_button_texture.png</Source>
+      <Name>Menu_Assets\game_over_menu_restart_button_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_restart_button_texture.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\game_over_menu_title.png</Source>
+      <Name>Menu_Assets\game_over_menu_title</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_title.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\game_over_menu_background.png</Source>
+      <Name>Menu_Assets\game_over_menu_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_over_menu_background.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\bombline.png</Source>
+      <Name>Enemies\bombline</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\bombline.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\manual_down_button_temp.png</Source>
+      <Name>Menu_Assets\manual_down_button_temp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_down_button_temp.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\manual_up_button_temp.png</Source>
+      <Name>Menu_Assets\manual_up_button_temp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\manual_up_button_temp.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Powerups\powerup_icon.png</Source>
+      <Name>Powerups\powerup_icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\powerup_icon.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\main_menu_credits.png</Source>
+      <Name>Menu_Assets\main_menu_credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\main_menu_credits.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\credits_menu_background.png</Source>
+      <Name>Menu_Assets\credits_menu_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\credits_menu_background.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Powerups\blackhole_icon.png</Source>
+      <Name>Powerups\blackhole_icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\blackhole_icon.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Powerups\double_damage_icon.png</Source>
+      <Name>Powerups\double_damage_icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\double_damage_icon.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Powerups\invincibility_icon.png</Source>
+      <Name>Powerups\invincibility_icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\invincibility_icon.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Powerups\invincibility_shield.png</Source>
+      <Name>Powerups\invincibility_shield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\invincibility_shield.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\space1.png</Source>
+      <Name>Level_Backgrounds\space1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space1.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\space2.png</Source>
+      <Name>Level_Backgrounds\space2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space2.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\space3.png</Source>
+      <Name>Level_Backgrounds\space3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space3.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\space4.png</Source>
+      <Name>Level_Backgrounds\space4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\space4.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\continue_button_texture.png</Source>
+      <Name>Menu_Assets\continue_button_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\continue_button_texture.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\game_complete_title.png</Source>
+      <Name>Menu_Assets\game_complete_title</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\game_complete_title.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Menu_Assets\level_complete_title.png</Source>
+      <Name>Menu_Assets\level_complete_title</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Menu_Assets\level_complete_title.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\imperial_boss.png</Source>
+      <Name>Enemies\imperial_boss</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\imperial_boss.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\imperial_laser.png</Source>
+      <Name>Enemies\imperial_laser</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Enemies\imperial_laser.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Powerups\blackhole_spritesheet.png</Source>
+      <Name>Powerups\blackhole_spritesheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Powerups\blackhole_spritesheet.xnb</Output>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\lava_world1.png</Source>
+      <Name>Level_Backgrounds\lava_world1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world1.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\lava_world2.png</Source>
+      <Name>Level_Backgrounds\lava_world2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world2.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\lava_world3.png</Source>
+      <Name>Level_Backgrounds\lava_world3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world3.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level_Backgrounds\lava_world4.png</Source>
+      <Name>Level_Backgrounds\lava_world4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Level_Backgrounds\lava_world4.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\no_more_lies.WAV</Source>
+      <Name>Sound\no_more_lies</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\no_more_lies.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\large_explosion_with_trail_off.WAV</Source>
+      <Name>Sound\large_explosion_with_trail_off</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\large_explosion_with_trail_off.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\science_fiction_phaser_gun.WAV</Source>
+      <Name>Sound\science_fiction_phaser_gun</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\science_fiction_phaser_gun.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\ship_explosion.WAV</Source>
+      <Name>Sound\ship_explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\ship_explosion.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\bomb_explosion.WAV</Source>
+      <Name>Sound\bomb_explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\bomb_explosion.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\fire_bullet_normal.wav</Source>
+      <Name>Sound\fire_bullet_normal</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_normal.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\blackhole_fire.wav</Source>
+      <Name>Sound\blackhole_fire</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\blackhole_fire.xnb</Output>
+      <Time>2012-11-29T17:45:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\fire_bullet_enemy.wav</Source>
+      <Name>Sound\fire_bullet_enemy</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_enemy.xnb</Output>
+      <Time>2012-11-29T17:45:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\fire_bullet_double_damage.wav</Source>
+      <Name>Sound\fire_bullet_double_damage</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\fire_bullet_double_damage.xnb</Output>
+      <Time>2012-11-29T17:45:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\level_two_music.wav</Source>
+      <Name>Sound\level_two_music</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_two_music.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\invincibility_shield.wav</Source>
+      <Name>Sound\invincibility_shield</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\invincibility_shield.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\level_one_music.wav</Source>
+      <Name>Sound\level_one_music</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_one_music.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\level_three_music.wav</Source>
+      <Name>Sound\level_three_music</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\level_three_music.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\kamikaze_lock.wav</Source>
+      <Name>Sound\kamikaze_lock</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\kamikaze_lock.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\imperial_laser_fire.wav</Source>
+      <Name>Sound\imperial_laser_fire</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Sound\imperial_laser_fire.xnb</Output>
+      <Time>2012-11-29T17:45:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\GameOverFont.spritefont</Source>
+      <Name>Fonts\GameOverFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverFont.xnb</Output>
+      <Time>2012-04-12T22:37:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\GameOverScore.spritefont</Source>
+      <Name>Fonts\GameOverScore</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\GameOverScore.xnb</Output>
+      <Time>2012-04-25T15:03:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\InGameFont.spritefont</Source>
+      <Name>Fonts\InGameFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\InGameFont.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\MainMenuFont.spritefont</Source>
+      <Name>Fonts\MainMenuFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\MainMenuFont.xnb</Output>
+      <Time>2012-04-12T22:37:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\AccuracyFont.spritefont</Source>
+      <Name>Fonts\AccuracyFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\AccuracyFont.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\ScoreFont.spritefont</Source>
+      <Name>Fonts\ScoreFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Fonts\ScoreFont.xnb</Output>
+      <Time>2012-11-29T17:45:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Movies\start_up_movie.WMV</Source>
+      <Name>Movies\start_up_movie</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Movies\start_up_movie.xnb</Output>
+      <Extra>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\Movies\start_up_movie.wmv</Extra>
+      <Time>2012-11-29T17:43:20-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\HarvesterContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\HarvesterContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Zach\Desktop\College\Year 1\Ravioli\GSD III Project\Harvester\Harvester\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-01-08T19:02:46.2602239-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace GSDIIITool
+{
+    public partial class FormationPallete : Form
+    {
+        public FormationPallete()
+        {
+            //mouseIsDown = false;
+
+            //PictureBox regularEnemy = new PictureBox();
+            //regularEnemy.Image = new Bitmap("Ship - Enemy Fighter v1.png");
+
+            //XLocation = 400;
+            //XLocation = regularEnemy.Location.X;
+
+            //YLocation = 400;
+            //YLocation = regularEnemy.Location.Y;
+
+            //Rectangle regularEnemyRect = new Rectangle(XLocation, YLocation, regularEnemy.Width, regularEnemy.Height);
+            //regularEnemyRect.
+            //regularEnemy.Show();
+
+            InitializeComponent();
+            //CreateGrid();
+        }
+
+        ///// <summary>
+        ///// Creates the grid lines
+        ///// </summary>
+        //public void CreateGrid()
+        //{
+
+        //        //Create verticle lines
+        //        GridLine vertGridLine = new GridLine(10, 720, 295 + (80 * 2), 0, Color.Black);
+
+        //        //Create horizontal lines
+        //        GridLine horizontalGridLine = new GridLine(1280, 10, 13 + (72 * 2), 0, Color.Black);
+
+        //}
+    }
+}

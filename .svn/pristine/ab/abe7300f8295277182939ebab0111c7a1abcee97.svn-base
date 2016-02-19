@@ -1,0 +1,308 @@
+/*
+ * Public Class Engine
+ * @author: Peter O'Neal/Freddy Garcia/Derrick Hunt
+ * 
+ * Version: $1.2.2$
+ * 
+ * Revisions:
+ *      1.0.1: (Somebody >.>)
+ *          - Added enumerated type for gamestates
+ *      1.0.2: (Somebody <.<)
+ *          - All classes now share the same spritebatch!
+ *      1.2.1: (Sigh..)
+ *          - Added Move and CheckBoundaries methods
+ *      1.2.2 (Derrick H.)
+ *          - Added crosshair image for the mouse
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+namespace Harvester
+{
+
+    //All possible gamestates
+    public enum Gamestate
+    {
+        MainMenu,
+        OptionsMenu,
+        ManualMenu,
+        Gameplay,
+        GamePause,
+        GameOver
+    }
+
+    /// <summary>
+    /// The main game engine; starting point for the game
+    /// </summary>
+    public class Engine : Microsoft.Xna.Framework.Game
+    {
+
+        #region Attributes
+        GraphicsDeviceManager graphics;
+        SpriteBatch spriteBatch;
+        Gamestate prevState;// previous game state
+        Gamestate currentState;//game will start in main menu state
+        LevelOne levelOne;//the first level object
+        MainMenu mainMenu;//the main menu
+
+
+        Texture2D crosshairTexture; //the texture for the crosshair/cursor
+        Vector2 cursorPos;
+        MouseState mouseState;
+        Player currentPlayer;
+        GameOver overMenu;// the game over menu
+        GamePause pauseMenu;// the pause menu
+        #endregion
+
+        #region Properties
+        public Gamestate PrevState
+        {
+            get { return prevState; }
+            set { prevState = value; }
+        }
+        public Player CurrentPlayer
+        {
+            get { return currentPlayer; }
+            set { currentPlayer = value; }
+        }
+        /// <summary>
+        /// gets and sets the current gamestate
+        /// </summary>
+        public Gamestate CurrentState
+        {
+            get { return currentState; }
+            set { currentState = value; }
+        }
+        #endregion
+
+        #region Constructor
+        public Engine()
+        {
+            //Testing Spawning wavs
+            SpawnManager.SpawnAWave(100, 1, "vPlus");
+            
+            //create graphics
+            graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
+
+            //set current state to the main menu
+
+            //default the game to 720p
+            graphics.PreferredBackBufferHeight = 720;
+            graphics.PreferredBackBufferWidth = 1280;
+        }
+        #endregion
+
+        #region Methods
+        /// <summary>
+        /// Allows the game to perform any initialization it needs to before starting to run.
+        /// This is where it can query for any required services and load any non-graphic
+        /// related content.  Calling base.Initialize will enumerate through any components
+        /// and initialize them as well.
+        /// </summary>
+        protected override void Initialize()
+        {
+            //TESTING LEVEL ONE
+            levelOne = new LevelOne(this, spriteBatch);
+            levelOne.Visible = false;         // Disables the level from being visible
+            levelOne.Enabled = false;         // Disables the level from calling its update method
+            Components.Add(levelOne);         // Adds the level to allow it to do stuff
+
+            //TESTING MAIN MENU
+            mainMenu = new MainMenu(this);
+            mainMenu.Visible = false;
+            mainMenu.Enabled = false;
+            Components.Add(mainMenu);
+
+
+            //make the cursor invisible
+            // TESTING PAUSE MENU
+            pauseMenu = new GamePause(this); base.Initialize();
+        }
+
+        /// <summary>
+        /// LoadContent will be called once per game and is the place to load
+        /// all of your content.
+        /// </summary>
+        protected override void LoadContent()
+        {
+            // Create a new SpriteBatch, which can be used to draw textures.
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            //load the crosshair image
+            crosshairTexture = Content.Load<Texture2D>(@"HUD Items\Crosshair");
+
+        }
+
+        /// <summary>
+        /// UnloadContent will be called once per game and is the place to unload
+        /// all content.
+        /// </summary>
+        protected override void UnloadContent()
+        {
+            // TODO: Unload any non ContentManager content here
+        }
+
+        /// <summary>
+        /// Allows the game to run logic such as updating the world,
+        /// checking for collisions, gathering input, and playing audio.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        protected override void Update(GameTime gameTime)
+        {
+            // Allows the game to exit
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+                this.Exit();
+
+            //get the current cursor pos
+            mouseState = Mouse.GetState();
+            cursorPos = new Vector2(mouseState.X - 25, mouseState.Y - 25);
+
+            //get input to move player
+            KeyboardState keyBoardState;
+            keyBoardState = Keyboard.GetState();
+            Move(keyBoardState);
+
+            if (prevState == Gamestate.GameOver && currentState == Gamestate.MainMenu)
+            {
+            }
+            
+
+            //switch the gamestate (FSM)
+            switch (currentState)
+            {
+                case Gamestate.Gameplay:
+                    levelOne.Enabled = true; // Allows the level to start calling its update method
+                    levelOne.Visible = true; // Allows the level to be visible
+                    levelOne.Update(gameTime);
+                    if (levelOne.HealthBar.CurrentHealth <= 0)
+                    {
+                        overMenu = new GameOver(this, currentPlayer, levelOne.Score);
+                        currentState = Gamestate.GameOver;
+                    }
+                    prevState = currentState;
+                    break;
+                case Gamestate.MainMenu:
+                    levelOne.Score = 0;
+                    levelOne.Player.CurrentHealth = levelOne.HealthBar.MaxHealth;
+                    mainMenu.Enabled = true;
+                    mainMenu.Visible = true;
+                    mainMenu.Update(gameTime); // Updates the menu and gamestate via the main menu's update method
+                    prevState = currentState;
+                    break;
+                case Gamestate.GamePause:
+                    pauseMenu.Enabled = true;
+                    pauseMenu.Visible = true;
+                    pauseMenu.Update(gameTime); // Updates the menu and gamestate via the pause menu's update method
+                    prevState = currentState;
+                    break;
+                case Gamestate.GameOver:
+                    overMenu = new GameOver(this, currentPlayer, levelOne.Score);
+                    levelOne.Player.CurrentHealth = levelOne.HealthBar.MaxHealth;
+                    levelOne.Player.ObjectPosition = new Rectangle(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height - 90, 50, 50);
+                    overMenu.Enabled = true;
+                    overMenu.Visible = true;
+                    overMenu.Update(gameTime);
+                    prevState = currentState;
+                    break;
+            }
+
+            base.Update(gameTime);
+        }
+
+        /// <summary>
+        /// This is called when the game should draw itself.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        protected override void Draw(GameTime gameTime)
+        {
+            GraphicsDevice.Clear(Color.HotPink);
+
+            spriteBatch.Begin();
+
+            //draw based on the FSM
+            switch (currentState)
+            {
+                case Gamestate.Gameplay:
+                    levelOne.Draw(gameTime, this.spriteBatch);  // Draws the level via the levels draw method
+                    break;
+                case Gamestate.MainMenu:
+                    mainMenu.Draw(gameTime, this.spriteBatch);   // Draws the mainMenu via the main menu's draw method
+                    break;
+                case Gamestate.GamePause:
+                    pauseMenu.Draw(gameTime, this.spriteBatch);
+                    break;
+                case Gamestate.GameOver:
+                    overMenu = new GameOver(this, currentPlayer, levelOne.Score);
+                    overMenu.Draw(gameTime, this.spriteBatch);
+                    break;
+            }
+            //draw the crosshair
+            spriteBatch.Draw(crosshairTexture, cursorPos, Color.White);
+            spriteBatch.End();
+
+            base.Draw(gameTime);
+        }
+        #endregion
+
+        #region Private/Helper Methods
+        /// <summary>
+        /// Makes sure that the player stays on screen
+        /// </summary>
+        private void CheckBoundaries()
+        {
+            if (levelOne.Player.ObjectXPos < 0)
+            {
+                levelOne.Player.ObjectXPos += (int)levelOne.Player.Speed;
+            }
+            if (levelOne.Player.ObjectYPos < 0)
+            {
+                levelOne.Player.ObjectYPos += (int)levelOne.Player.Speed;
+            }
+            if (levelOne.Player.ObjectXPos > this.Window.ClientBounds.Width - 50)
+            {
+                levelOne.Player.ObjectXPos -= (int)levelOne.Player.Speed;
+            }
+            if (levelOne.Player.ObjectYPos > this.Window.ClientBounds.Height - 50)
+            {
+                levelOne.Player.ObjectYPos -= (int)levelOne.Player.Speed;
+            }
+        }
+
+        /// <summary>
+        /// Moves the player
+        /// </summary>
+        /// <param name="keyBoardState">the current KeyboardState</param>
+        private void Move(KeyboardState keyBoardState)
+        {
+            if (keyBoardState.IsKeyDown(Keys.W))
+            {
+                levelOne.Player.ObjectYPos -= (int)levelOne.Player.Speed;
+            }
+            if (keyBoardState.IsKeyDown(Keys.A))
+            {
+                levelOne.Player.ObjectXPos -= (int)levelOne.Player.Speed;
+            }
+            if (keyBoardState.IsKeyDown(Keys.S))
+            {
+                levelOne.Player.ObjectYPos += (int)levelOne.Player.Speed;
+            }
+            if (keyBoardState.IsKeyDown(Keys.D))
+            {
+                levelOne.Player.ObjectXPos += (int)levelOne.Player.Speed;
+            }
+            CheckBoundaries();
+        }
+
+        #endregion
+    }
+}

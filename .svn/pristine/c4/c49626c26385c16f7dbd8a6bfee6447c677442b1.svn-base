@@ -1,0 +1,83 @@
+﻿/*
+ * Public static class SpawnWaves
+ * @author Freddy Garcia/Theodore Greene
+ * 
+ * Version: $1.0.0$
+ * 
+ * Revisions: 
+ *          1.0.1 (Theodore Greene)
+ *              -Added attributes and the basics of file reading
+ *          1.0.2 (Theodore Greene)
+ *              -Added Methods, major overhalls into ModLoader
+ * 
+ */
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+namespace Harvester
+{
+    /// <summary>
+    /// This class handles the way waves will spawn in the levels (tentative)
+    /// </summary>
+    public static class SpawnManager
+    {
+        
+        //File IO
+        //private int spawnTimer;
+        //private int bossSpawnTimer; // maybe
+
+        /// <summary>
+        /// Spawns a single name
+        /// </summary>
+        /// <param name="frequency"></param>
+        /// <param name="amount"></param>
+        public static void SpawnAWave(int frequency, int amount, string fileName)
+        {
+            //The list of enemieFighters is the created
+
+            /*The process: 
+             * 1.Call CreateFormation with the file name 
+             * 2.CreateFormation calles ModLoader's Load content to load the file and pass it back up as an array list
+             * 3.CreateFormation uses that to build the list
+             * 4.Which is passed back up
+             * 5.And using the list you place them and draw them etc
+             * It is round about but if we can eliminate 
+            */
+            ArrayList enemieFighters = CreateFormation(fileName);
+        }
+
+        /// <summary>
+        /// Pass the file name to the ModLoader to get back data
+        /// Use the data to create formation as a list of enemies which is passed back to the
+        /// Ship Manager to spawn
+        /// This may be merged with spawn a wave
+        /// </summary>
+        /// <param name="formationName">name of the file to be read</param>
+        public static ArrayList CreateFormation(string formationName)
+        {
+            //A list of enemies to be filled
+            ArrayList enemyLoadList = new ArrayList();
+
+            ArrayList arrayList = ModLoader.LoadFromSource(formationName, ModLoader.LoadType.Formation);
+
+            for (int i = 0; i < arrayList.Count; i++)
+            {
+                enemyLoadList.Add(arrayList[i]);
+            }
+            return enemyLoadList;
+        }
+    }
+            
+}

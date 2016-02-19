@@ -1,0 +1,66 @@
+﻿/*
+ * public abstract class Harvester
+ * @author Derrick Huntah!
+ * 
+ * Version:
+ *      $1.0.0$
+ * 
+ * Revisions:
+ * 
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Harvester
+{
+    /// <summary>
+    /// Represents the player's Harvester claw used to steal energy from enemies
+    /// </summary>
+    public class Harvester : GameObject
+    {
+        #region Attributes
+        private Color color; //the current color of the harvester
+        private Rectangle claw; //contains the 'claw' part of the harvester
+        private int damage; //the damage the harvester does to enemies
+        private double conversion; //the percentage of damage converted to 
+        private int cooldownTime; //time between each usage
+        private Texture2D harvester; //the claw texture
+        private Random gen; //used to change the harvester color
+        private int frame; //the current frame of animation
+        private Boolean isActive; //whether the harvester is fired or not
+        #endregion
+
+        public Boolean IsActive { get { return isActive; } set { isActive = value; } }
+        public int Frame { get { return frame; } set { frame = value; } }
+
+        #region Constructor
+        public Harvester(Texture2D harvester, Rectangle rect, int damage) : base (rect, harvester)
+        {
+            color = Color.White;
+            this.damage = damage;
+            cooldownTime = 0;
+            isActive = false;
+            gen = new Random();
+        }
+        #endregion
+
+        public void DrawClaw(SpriteBatch spriteBatch, PlayerShip p)
+        {
+            if (isActive)
+            {
+                int r = gen.Next(256);
+                int g = gen.Next(256);
+                int b = gen.Next(256);
+                int a = gen.Next(256);
+                color = new Color(r, g, b, a);
+
+                spriteBatch.Draw(this.ObjectTexture, new Vector2(p.ObjectXPos, p.ObjectYPos - 180), new Rectangle(50 * frame, 0, 50, 180), color);
+            };
+        }
+    }
+}

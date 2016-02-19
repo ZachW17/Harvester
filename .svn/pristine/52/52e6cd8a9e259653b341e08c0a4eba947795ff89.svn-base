@@ -1,0 +1,89 @@
+﻿/*
+ * public interface Menu
+ * @author Zach Whitman
+ * 
+ * Version:
+ *      $1.0.1.Bada$$
+ * 
+ * Revisions:
+ * Added the drawableGameCompononents override methods to the class so the menus could inherit from them
+ * Added a rectangle to replace the vecotors so the buttons are clickable
+ * Added a previous and current mouse state to make sure you don't fuck with the system when clicking
+ * 
+ * Did NOT get to GameOver or GamePause yet, I will finish MainMenu first before hand
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+
+namespace Harvester
+{
+    public abstract class Menu : Microsoft.Xna.Framework.DrawableGameComponent
+    {
+        //the game engine
+        protected Engine gameEngine;
+        // The background texture for the menu
+        protected Texture2D backgroundImage;
+        protected MouseState currentMouseState;
+        protected MouseState previousMouseState;
+        //KeyboardState kbState { get; set; } // The ability to get the keyboard state in case we need it (ex. player name for highscores) MAYBE
+
+        #region Properties
+        public Engine GameEngine { get { return gameEngine; } }
+        public Texture2D BackgroundImage { get { return backgroundImage; } set { backgroundImage = value; } }
+        public MouseState CurrentMouseState { get { return currentMouseState; } set { currentMouseState = value; } }
+        public MouseState PreviousMouseState { get { return previousMouseState; } set { previousMouseState = value; } }
+        #endregion
+
+        /// <summary>
+        /// Menu's constuctor, brings in a Game object that will handle all of the Game's information
+        /// </summary>
+        /// <param name="theGame"></param>
+        public Menu(Engine theGame)
+            : base(theGame)
+        {
+            gameEngine = theGame;
+            Game.IsMouseVisible = true;
+        }
+
+
+        /// <summary>
+        /// Initializes the Menu
+        /// </summary>
+        public override void Initialize()
+        {
+            base.Initialize();
+        }
+
+        /// <summary>
+        /// Abstract method will have the Menu's load their content images for buttons and background images
+        /// </summary>
+        protected abstract override void LoadContent();
+
+        /// <summary>
+        /// Abstract Update method will have the Menu's be able to update their stuff every frame per second thing
+        /// </summary>
+        /// <param name="gameTime"></param>
+        public abstract override void Update(GameTime gameTime);
+
+        /// <summary>
+        /// Abstract Draw method that will be used by the Menu classes to draw their menus buttons and backgrounds 
+        /// </summary>
+        /// <param name="gameTime">The gameTime of the game</param>
+        /// <param name="gameTime">The spritebatch from the engine and its graphics device</param>
+        public abstract void Draw(GameTime gameTime, SpriteBatch spriteBatch);
+
+        
+        
+    }
+}

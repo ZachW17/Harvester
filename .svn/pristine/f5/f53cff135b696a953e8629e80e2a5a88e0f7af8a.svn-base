@@ -1,0 +1,306 @@
+﻿/*
+ * public abstract class Level : Microsoft.Xna.Framework.DrawableGameComponent
+ * @author Freddy Garcia/Peter O'Neal/Derrick Hunt
+ * 
+ * Version:
+ *      $1.5.3$
+ * 
+ * Revisions:
+ *      1.0.1: (Derrick Hunt)
+ *          - Made the class much more abstract to avoid doing more work in child classes
+ *      1.0.2: (Peter O'Neal / Derrick Hunt)
+ *          - Added ship and movement
+ *      1.3.3: (Derrick Hunt)
+ *          - More abstract! Also added UpdateBackground, DrawBackground, UpdateHUD and DrawHUD methods in order to handle the background movement
+ *      1.4.3: (Peter O'Neal)
+ *          - Added collision detection method for the enemies
+ *      1.5.3: (Freddy Garcia)
+ *          - Removed UpdateHUD from level class and moved it into the HealthBar class
+ * 
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+namespace Harvester
+{
+    /// <summary>
+    /// Abstract class for all the levels. Basic level structure is created here!
+    /// </summary>
+    public abstract class Level : Microsoft.Xna.Framework.DrawableGameComponent
+    {
+        #region Attributes
+        protected GraphicsDeviceManager g;
+        protected int enemySpawnTimer; // TENTATIVE. MIGHT USE WAVESPAWN MANAGER
+        // List of the ships currently on the screen
+        protected List<Ship> shipList;
+        // List of the bullets currently on the screen
+        protected List<Bullet> bulletList = new List<Bullet>(); 
+
+        // Array of the background images to scroll
+        protected Background[] backgrounds;
+        protected Texture2D background1;
+        protected Texture2D background2;
+        protected Texture2D background3;
+        protected Texture2D background4;
+        //player object and texture
+        protected Player player;
+        protected Texture2D playerShip;
+        protected Texture2D pBulletTexture;
+        //enemy and bullet
+        protected EnemyFighter enemy1;
+        protected EnemyFighter enemy2;
+        protected EnemyFighter enemy3;
+        protected List<Enemy> enemies = new List<Enemy>();
+        protected Texture2D enemyShip;
+        protected Texture2D enemyBullet;
+        //spritebatch
+        protected SpriteBatch spriteBatch;
+        // Sprite fonts used for HUD
+        protected SpriteFont font1;
+        //HUD components
+        protected HealthBar healthBar;
+        protected Texture2D healthBarTexture;
+        protected Texture2D healthBarOutlineTexture;
+        protected Texture2D powerUpOutline;
+        protected List<Texture2D> powerUp;
+        //Put power up icons here
+        //explosion spritesheet
+        private Texture2D explosion;
+        int frame = 0;
+        int framesElapsed = 0;
+        #endregion
+
+        #region Properties
+        /// <summary>
+        /// The time for the next enemy wave to spawn
+        /// </summary>
+        public int EnemySpawnTimer
+        {
+            get { return enemySpawnTimer; }
+            set { enemySpawnTimer = value; }
+        }
+
+        /// <summary>
+        /// Gets and sets the Player object
+        /// </summary>
+        public Player Player
+        {
+            get { return player; }
+            set { player = value; }
+        }
+
+        /// <summary>
+        /// The list of enemies in the game
+        /// </summary>
+        public List<Enemy> Enemies
+        {
+            get { return enemies; }
+            set { enemies = value; }
+        }
+        #endregion
+
+        #region Constructor
+        /// <summary>
+        /// Creates a new level in the game
+        /// </summary>
+        /// <param name="theGame"></param>
+        public Level(Game theGame,SpriteBatch spriteBatch)
+            :base(theGame)
+        {
+            this.spriteBatch = spriteBatch;
+            backgrounds = new Background[4];
+        }
+        #endregion
+
+        #region Methods
+        /// <summary>
+        /// Initializes all necessary values to their defaults before the level begins
+        /// to run.
+        /// </summary>
+        public override void Initialize()
+        {   
+            base.Initialize();
+            //no extra code needed
+        }
+
+        /// <summary>
+        /// Loads all the content for this level
+        /// </summary>
+        protected override void LoadContent()
+        {
+            //load ship images and object
+            playerShip = Game.Content.Load<Texture2D>(@"Player\Ship - Phx Mk");
+            enemyShip = Game.Content.Load<Texture2D>(@"Enemies\Ship - Enemy Fighter");
+            //Images for bullets
+            pBulletTexture = Game.Content.Load<Texture2D>(@"Player\pBullet");
+            enemyBullet = Game.Content.Load<Texture2D>(@"Enemies\enemyBullet");
+            //player object to give ship coordinates,  health etc
+            player = new Player(new Rectangle(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height - 90, 50, 50), playerShip, 5, 100, 0, pBulletTexture);
+            enemy1 = new EnemyFighter(new Rectangle(GraphicsDevice.Viewport.Width / 3, GraphicsDevice.Viewport.Height - 600, 50, 50), enemyShip, 5, 100, 0, enemyBullet);
+            enemy2 = new EnemyFighter(new Rectangle(GraphicsDevice.Viewport.Width / 2, GraphicsDevice.Viewport.Height - 600, 50, 50), enemyShip, 5, 100, 0, enemyBullet);
+            enemy3 = new EnemyFighter(new Rectangle(GraphicsDevice.Viewport.Width / 2 + 165, GraphicsDevice.Viewport.Height - 600, 50, 50), enemyShip, 5, 100, 0, enemyBullet);
+            enemies.Add(enemy1);
+            enemies.Add(enemy2);
+            enemies.Add(enemy3);
+            //load HUD elements
+            font1 = Game.Content.Load<SpriteFont>(@"Fonts\InGameFont");
+            healthBarTexture = Game.Content.Load<Texture2D>(@"HUD Items\HUD - HealthBar");
+            healthBar = new HealthBar(new Rectangle(10, 40, (int) player.CurrentHealth, 20), healthBarTexture, (int) player.CurrentHealth);
+            healthBarOutlineTexture = Game.Content.Load<Texture2D>(@"HUD Items\HUD - HealthBarBorder");
+            powerUpOutline = Game.Content.Load<Texture2D>(@"HUD Items\HUD - PowerUpBorder");
+            //load power up icons here
+
+            //load explosion texture
+            explosion = Game.Content.Load<Texture2D>(@"Effects\SpriteSheet - Explosion 1");
+        }
+
+        /// <summary>
+        /// Updates the game, making sure the background remains scrolling and the player and enemies are 
+        /// responding / acting correctly.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values</param>
+        public override void Update(GameTime gameTime)
+        {
+            //update backgrounds
+            UpdateBackground(backgrounds);
+
+            //update the player bullets
+            player.UpdatePlayerBullets();
+
+            //update the HUD
+            healthBar.UpdateHUD();
+
+            //checks to see if bullets are hitting enemies
+            CheckCollisions();
+
+            //use these for animating explosion
+            framesElapsed = (int)(gameTime.TotalGameTime.TotalMilliseconds / 100);
+            frame = framesElapsed % 5;
+        }
+        
+        /// <summary>
+        /// Draws the background and enemies to the screen, 
+        /// in addition to any bullets or abilities that are currently being used
+        /// </summary>
+        public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            //draw the backgrounds
+            DrawBackground(gameTime, spriteBatch);
+
+            //draw the player and bullets
+            player.Draw(spriteBatch);
+            
+            for (int i = 0; i < player.Bullets.Count; i++)
+            {
+                player.Bullets[i].Draw(spriteBatch);
+            }
+
+            //make shit blow up
+            //DOESNT WORK RIGHT, BUT KINDA WORKS--GOOD ENOUGH FOR NOW
+            for (int i = 0; i < Enemies.Count; i++)
+            {
+                if (enemies[i].IsActive == false)
+                {
+                    spriteBatch.Draw(explosion, new Vector2(enemies[i].ObjectXPos-25, enemies[i].ObjectYPos-25), new Rectangle(90 * frame, 0, 90, 90), Color.White);
+                    if (frame >= 4)
+                    {
+                        enemies.Remove(enemies[i]);
+                    }
+                }
+            }
+
+            //draw enemies
+            for (int i = 0; i < Enemies.Count; i++)
+            {
+                if (Enemies[i].IsActive == true)
+                {
+                    Enemies[i].Draw(spriteBatch);
+                }
+            }
+
+            //draw the HUD
+            DrawHUD(spriteBatch);
+        }
+
+        
+        #endregion
+
+        #region Private/Helper Methods
+        /// <summary>
+        /// Updates the positions of the background textures.
+        /// Called in update
+        /// </summary>
+        /// <param name="backgrounds">the list of backgrounds to move</param>
+        private void UpdateBackground(Background[] backgrounds)
+        {
+            //scroll backgrounds down vertically
+            for (int i = 0; i < backgrounds.Length; i++)
+            {
+                backgrounds[i].ObjectYPos++;
+                //reset images for continuous scrolling
+                if (backgrounds[i].ObjectYPos >= GraphicsDevice.Viewport.Height * (backgrounds.Length - 1))
+                {
+                    backgrounds[i].ObjectYPos = -GraphicsDevice.Viewport.Height;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Draws the scrolling background in the level
+        /// </summary>
+        /// <param name="gameTime"></param>
+        /// <param name="spriteBatch"></param>
+        private void DrawBackground(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            for (int i = 0; i < backgrounds.Length; i++)
+                backgrounds[i].Draw(spriteBatch);
+        }
+
+        /// <summary>
+        /// Draws the HUD to the screen.
+        /// Called in Draw.
+        /// </summary>
+        /// <param name="spriteBatch">the spriteBatch doing the drawing</param>
+        private void DrawHUD(SpriteBatch spriteBatch)
+        {
+            //Draw current health
+            spriteBatch.DrawString(font1, "HEALTH", new Vector2(10, 10), Color.White);
+            healthBar.Draw(spriteBatch);
+            spriteBatch.Draw(healthBarOutlineTexture, new Rectangle(healthBar.ObjectXPos, healthBar.ObjectYPos, 100, healthBar.ObjectHeight), Color.White);
+            //Draw current score
+            spriteBatch.DrawString(font1, "SCORE", new Vector2(10, 100), Color.White);
+            spriteBatch.DrawString(font1, "00000000", new Vector2(10, 120), Color.White);
+            //Draw current power
+            spriteBatch.DrawString(font1, "POWER", new Vector2(10, 380), Color.White);
+            spriteBatch.Draw(powerUpOutline, new Rectangle(10, 420, 50, 50), Color.White);
+        }
+
+        /// <summary>
+        /// Checks for collisions of all of the objects in the ship
+        /// </summary>
+        private void CheckCollisions()
+        {
+            for (int i = 0; i < Enemies.Count; i++)
+                for (int j = 0; j < Player.Bullets.Count; j++)
+                {
+                    // If the bullets of the player intersect with any enemies
+                    // The enemies take a hit
+                    if (Player.Bullets[j].ObjectPosition.Intersects(Enemies[i].ObjectPosition))
+                    {
+                        enemies[i].TakeHit(25);
+                        Player.Bullets.Remove(Player.Bullets[j]);
+                    }
+                }
+        }
+        #endregion
+    }      
+}

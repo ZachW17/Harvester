@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Harvester
+{
+    public class Explosion : GameObject
+    {
+        //atrributes
+        int frame; //the current frame of the explosion animation
+
+        //properties
+        public int Frame
+        {
+            get { return frame; }
+            set { frame = value; }
+        }
+
+        //constructor
+        public Explosion(Rectangle pos, Texture2D texture)
+            : base(pos, texture)
+        {
+            frame = 0; //initialize to first frame
+        }
+
+        //overload draw for spritesheet
+        public override void  Draw(SpriteBatch spriteBatch)
+        {
+            spriteBatch.Draw(this.objectTexture, new Vector2(this.ObjectXPos, this.ObjectYPos), new Rectangle(90 * frame, 0, 90, 90), Color.White); 
+        }
+    }
+}
